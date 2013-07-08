@@ -13,12 +13,15 @@
 <link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/> 
 <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 <link type="text/css" href="css/css3.css" rel="stylesheet" />
-<script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <script type="text/javascript" src="js/jquery.pikachoose.js"></script>
 <script language="javascript">
 			$(document).ready(
 				function (){
 					$("#pikame").PikaChoose();
+					$("#accordion" ).accordion();
 				});
 		</script>
 		
@@ -46,7 +49,7 @@
 <li><a href="#" class="current">首页</a>
 
 </li>
-<!--<li><a href="#">关于我们</a></li>-->
+<li><a href="#">关于我们</a></li>
 <!--<li><a href="#">课程产品</a></li>-->
 <!--<li><a href="#">Portfolio</a></li>-->
 <!--<li><a href="#">新闻</a></li>-->
@@ -95,8 +98,8 @@
 
  
 <section class="group2">
-<h3>课程产品</h3>
-<p>TODO</p>
+<h3>开课信息</h3>
+<p>即将开课，敬请期待。</p>
 <a href=""><span class="read_more">Read more ...</span></a>
 
 </section>
@@ -123,9 +126,9 @@
 南大和园是双学区房，附近有南外附属幼儿园，金陵中学等名校，客户资源优秀。</p>
 <div class="pikachoose">
 <ul id="pikame" >
-	<li><a href="#"><img src="images/picture3.jpg" width="500" height="250"  alt="picture"/></a><span>“Simplicity is the nature of great souls.”</span></li>
-	<li><a href="#"><img src="images/picture2.jpg" width="500" height="250" alt="picture"/></a><span>“The little things are infinitely the most important. “ </span></li>
-	<li><a href="#"><img src="images/picture1.jpg" width="500" height="250" alt="picture"/></a><span>“快乐是学习的本质。”</span></li>
+	<li><a href="#"><img src="images/picture3.jpg" width="500" height="250"  alt="picture"/></a><span>幼升小专业老师，经验丰富。</span></li>
+	<li><a href="#"><img src="images/picture2.jpg" width="500" height="250" alt="picture"/></a><span>兴趣小班，快乐是学习的最高境界。</span></li>
+	<li><a href="#"><img src="images/picture1.jpg" width="500" height="250" alt="picture"/></a><span>教室进小区，接送方便。</span></li>
    </ul>
    </div>
 
@@ -135,11 +138,32 @@
    
 <section class="group5">
 <h3>特点</h3>
-<p><span class="purple">1)</span>辅导和托管结合，内容合适轻松，5个孩子为一班, 一节课时长40分钟，每天6点至8点半(周一到周四)，两节教学辅导，一节托管作业辅导，共三课时，以数学为主。招收对象为幼儿园或小低年级小孩。地点位于南大和园内(待定，租房中)。家长可旁听。</p>
-<p><span class="purple">2)</span>每课时40园，一次课120元(包括教材)，第一节后可以全额退费，第二节之后按照已上课比例退费。</p>
-<p><span class="purple">3)</span>专业老师负责，经验丰富。</p>
-
-
+<div id="accordion">
+  <h3>小班教学，兴趣为主</h3>
+  <div>
+    <p>
+    既有辅导，又有托管，内容轻松活泼，一对五数学兴趣小班，效果好，家长可旁听。
+    </p>
+  </div>
+  <h3>教室进小区，接送方便</h3>
+  <div>
+    <p>
+    招收对象为幼儿园或小低年级小孩。地点位于南大和园内，接送即为方便，爷爷奶奶即可送达。
+    </p>
+  </div>
+  <h3>幼升小专家，经验丰富</h3>
+  <div>
+    <p>
+    幼升小领域多年经验，专业老师授课辅导，经验丰富。
+    </p>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+  </div>
+</div>
 </section>
 
 
