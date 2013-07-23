@@ -2,3 +2,9 @@
 color: #00CCFF;
 font-weight: bold;
 }
+
+.bg-image {
+background-image: url(../images/birds.jpg);
+background-repeat: no-repeat;
+background-position: top center;
+}
