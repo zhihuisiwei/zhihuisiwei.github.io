@@ -3,6 +3,12 @@ color: #00CCFF;
 font-weight: bold;
 }
 
+.highlight a{
+color: #00CCFF;
+font-weight: bold;
+text-decoration: none;
+}
+
 .bg-image {
 background-image: url(../images/birds.jpg);
 background-repeat: no-repeat;
